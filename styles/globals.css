@@ -423,6 +423,9 @@ a {
 .h-16 {
   height: 4rem;
 }
+.h-36 {
+  height: 9rem
+}
 .h-40 {
   height: 10rem;
 }
@@ -726,7 +729,11 @@ a {
 }
 .hover\:text-white:hover {
   color: #ffffff;
+} 
+.hover\:text-blue-800:hover {
+  color: #bc1717;
 }
+
 
 .hover\:underline:hover {
   text-decoration: underline;

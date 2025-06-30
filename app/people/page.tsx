@@ -11,18 +11,26 @@ import PartnersGrid from "@/components/partners-grid"
 const strats: ListItem[] = [
     {
         title: "Event-Driven Executives",
-        description: `Lead analysis of time-sensitive market events and risk-adjusted positioning.`,
+        description: `Oversee the analysis of time-sensitive market catalysts such as 
+        earnings, M&A, and macro events. They train analysts to assess risk/reward 
+        dynamics, model scenarios, and capitalize on short-term dislocations.`,
+        href: "/programs"
     },
     {
         title: "Algorithmic Executives",
-        description: `Guide quant strategy development, backtesting, and code reviews.`,
+        description: `Direct the creation and refinement of data-driven trading strategies 
+        using Python and statistical methods. They support members in signal design, backtesting, 
+        and optimizing model performance across market regimes.`,
+        href: "/programs"
     },
     {
         title: "Long/Short Equity Executives",
-        description: `Focus on fundamental valuation and company research.`,
+        description: `Lead the team in identifying improperly valued equities
+        through fundamental research and valuation analysis. They manage portfolio positioning
+        and ensure disciplined execution on both long and short ideas.`,
+        href: "/programs"
     },    
 ]
-
 
   export default function PeoplePage() {
   return (

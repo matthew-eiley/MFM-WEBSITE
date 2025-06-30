@@ -6,48 +6,42 @@ const teamMembers = [
     name: "Benjamin Amzallag",
     position: "Event-Driven Fund Manager",
     photo: "/team/benjy.jpg",
-    description:
-      "Crafting tailored investment portfolios driven by rigorous analysis and market insight.",
+    description: "\"Every market catalyst tells a story—our job is to act before the rest of the market finishes reading.\"",
     linkedin: "https://www.linkedin.com/in/benjamin-amzallag/",
   },
   {
     name: "John Doe",
     position: "Event-Driven Fund Manager",
     photo: "/team/idk.jpg",
-    description:
-      "Crafting tailored investment portfolios driven by rigorous analysis and market insight.",
+    description: "\"Timing is everything in event-driven investing, but conviction is what makes it count.\"",
     linkedin: "https://www.linkedin.com/feed/",
   },
   {
     name: "Matthew Eiley",
     position: "Algorithmic Fund Manager",
     photo: "/team/matthew.jpg",
-    description:
-      "Crafting tailored investment portfolios driven by rigorous analysis and market insight.",
+    description: "\"Quantitative stragy isn't about predicting the future — it's about making sense of uncertainty.\"",
     linkedin: "https://www.linkedin.com/in/matthew-eiley/",
   },
   {
     name: "Marc-Antoine Nadeau",
     position: "Algorithmic Fund Manager",
     photo: "/team/marc.jpg",
-    description:
-      "Crafting tailored investment portfolios driven by rigorous analysis and market insight.",
+    description: "\"True edge isn't just built on signals—it's built on how you test, adapt, and trust them.\"",
     linkedin: "https://www.linkedin.com/in/ma-nadeau/",
   },
   {
     name: "Evan Kerzner",
     position: "Long/Short Fund Manager",
     photo: "/team/evan.jpg",
-    description:
-      "Crafting tailored investment portfolios driven by rigorous analysis and market insight.",
+    description: "\"Strong conviction comes from research that stands up to pressure, not just price action.\"",
     linkedin: "https://www.linkedin.com/in/evan-kerzner-45ba6828a/",
   },
   {
     name: "Cédrik Nadeau",
     position: "Long/Short Fund Manager",
     photo: "/team/cedrik.jpg",
-    description:
-      "Crafting tailored investment portfolios driven by rigorous analysis and market insight.",
+    description: "\"The best trades aren't just priced right — they're understood deeply.\"",
     linkedin: "https://www.linkedin.com/in/cedrik-nadeau/",
   },
 ]

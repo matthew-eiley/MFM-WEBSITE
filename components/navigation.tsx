@@ -27,7 +27,7 @@ const navigationItems = [
     content: {
       title: "Strategies",
       description: "Explore the structure of our fund and the three core divisions that drive our performance.",
-      ctaText: "Explore Our Business",
+      ctaText: "Explore Our Strategies",
       ctaLink: "/strategies",
       links: [
         { label: "Our Approach", href: "/strategies#approach" },
@@ -36,7 +36,7 @@ const navigationItems = [
         { label: "Long/Short Equities", href: "/strategies#teams" },
         { label: "Strategy Collaboration", href: "/strategies#collaboration" },
       ],
-      image: "/navigation/strategies-mega.png",
+      image: "/navigation/strategies-mega.jpg",
     },
   },
   {
@@ -45,14 +45,14 @@ const navigationItems = [
     content: {
       title: "Our Team",
       description: "Meet the students who lead, manage, and analyze within the Martlet Fund.",
-      ctaText: "Explore Our Business",
-      ctaLink: "/strategies",
+      ctaText: "Meet Our Team",
+      ctaLink: "/people",
       links: [
         { label: "Our Presidents", href: "/people#presidents" },
         { label: "Our Strategy Executives", href: "/people#executives" },
         { label: "Our Management Team", href: "/people#management" },
       ],
-      image: "/navigation/people-mega.png",
+      image: "/navigation/people-mega.jpg",
     },
 
   },
@@ -62,9 +62,9 @@ const navigationItems = [
     content: {
       title: "Programs",
       description: "Discover how to get involved, from applications to training and development opportunities.",
-      ctaText: "Our Program",
+      ctaText: "Our Programs",
       ctaLink: "/programs",
-      image: "/navigation/young-successors-mega.jpg",
+      image: "/navigation/programs-mega.jpg",
       layout: "family" as const,
     },
   },
@@ -74,9 +74,9 @@ const navigationItems = [
     content: {
       title: "Our Fund",
       description: "Access research, view alumni outcomes, and explore the partnerships behind the fund.",
-      ctaText: "Get In Touch",
+      ctaText: "See Our Fund",
       ctaLink: "/fund",
-      image: "/navigation/contact-mega.jpg",
+      image: "/navigation/fund-mega.jpg",
       layout: "family" as const,
     },
   },
@@ -163,7 +163,7 @@ export default function Navigation() {
 
             <a
               href="/programs"
-              className="bg-gray-200 text-uppercase border border-black text-black px-4 py-2 text-xs font-serif hover:bg-white transition-colors whitespace-nowrap"
+              className="bg-gray-200 text-uppercase border border-black text-black px-4 py-2 text-xs font-serif hover:bg-blue transition-colors whitespace-nowrap"
             >
               APPLY TODAY
             </a>

@@ -28,7 +28,7 @@ export default function MegaMenu({ content }: MegaMenuProps) {
             <p className="text-lg font-serif text-black leading-relaxed">{content.description}</p>
             <a
               href={content.ctaLink}
-              className="inline-block border-2 border-black px-4 py-2 text-lg font-serif hover:bg-white transition-colors"
+              className="inline-block border-2 border-black px-4 py-2 text-lg font-serif hover:bg-blue transition-colors"
             >
               {content.ctaText}
             </a>
@@ -41,7 +41,7 @@ export default function MegaMenu({ content }: MegaMenuProps) {
                 <a
                   key={link.label}
                   href={link.href}
-                  className="block text-black hover:text-gray-600 hover:underline transition-colors"
+                  className="block text-black hover:text-blue-800 hover:underline transition-colors"
                 >
                   {link.label}
                 </a>
