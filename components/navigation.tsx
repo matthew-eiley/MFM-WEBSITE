@@ -81,13 +81,16 @@ const navigationItems = [
     content: {
       title: "Our Fund",
       description: "Access research, view alumni outcomes, and explore the partnerships behind the fund.",
-      ctaText: "See Our Fund",
+      ctaText: "Our Fund",
       ctaLink: "/fund",
+      links: [
+        { label: "Insights and Research", href: "/fund#insights" },
+        { label: "Alumni Network", href: "/fund#alumni" },
+        { label: "Partners and Sponsors", href: "/fund#partners" },
+      ],
       image: "/navigation/fund-mega.jpg",
-      layout: "family" as const,
     },
   },
-
 ]
 
 export default function Navigation() {

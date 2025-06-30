@@ -76,7 +76,7 @@ export default function HomePage() {
 
       <ContentSection
         title="RESEARCH & INSIGHTS"
-        subtitle="Ideas Worth Publishing."
+        subtitle="Ideas Worth Sharing."
         description="Stay informed with strategic analyses and forward-looking 
         insights curated by the Martlet Fund. Navigate market trends, economic 
         developments, and investment opportunities clearly and confidently."

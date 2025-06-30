@@ -5,7 +5,7 @@ import Image from "next/image"
 import { FaEnvelope } from "react-icons/fa"
 
 const SHARE_TEXT = "Check out the Martlet Fund's Insights"
-const INSIGHTS_URL = "/fund#insights"
+const INSIGHTS_URL = "http://localhost:3000/fund#insights"
 
 const encodedURL = encodeURIComponent(INSIGHTS_URL)
 const encodedTextAndURL = encodeURIComponent(`${SHARE_TEXT}: ${INSIGHTS_URL}`)
