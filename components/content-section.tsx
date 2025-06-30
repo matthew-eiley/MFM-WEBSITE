@@ -26,7 +26,6 @@ export default function ContentSection({
   return (
     <section className={`py-16 ${className}`} id={id}>
       <div className="container mx-auto px-6">
-        {/* <div className="text-left max-w-7xl mx-auto"> */}
         <div className="text-left w-2/3 mx-auto">
           {title && (
             <h2 className="text-lg font-serif text-uppercase mb-2">{title}</h2>

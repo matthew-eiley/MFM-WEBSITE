@@ -1,6 +1,5 @@
 import Navigation from "@/components/navigation"
 import ContentSection from "@/components/content-section"
-import ServiceCarousel from "@/components/service-carousel"
 import Footer from "@/components/footer"
 import Subscribe from "@/components/subscribe"
 import Hero from "@/components/hero"
@@ -61,9 +60,11 @@ export default function PhilosophyPage() {
       <Navigation />
       <Hero
         title="MARTLET FUND MCGILL"
-        subtitle="Our Philosophy"
-        description="At the Martlet Fund, we combine academic excellence with institutional discipline. 
-        Our philosophy is simple: learn by doing, lead with integrity, and perform with conviction."
+        subtitle="Philosophy Driving Performance"
+        description="At Martlet Fund McGill, we believe that lasting investment performance 
+        stems from disciplined research, ethical leadership, and a culture of intellectual 
+        curiosity—values that shape how we learn, operate, and grow as student investors within 
+        a real-world fund environment."
         ctaText="Join Today"
         ctaLink="/programs"
         backgroundImage="/hero/home-hero.jpg"

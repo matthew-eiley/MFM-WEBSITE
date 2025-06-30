@@ -28,15 +28,13 @@ const navigationItems = [
       title: "Strategies",
       description: "Explore the structure of our fund and the three core divisions that drive our performance.",
       ctaText: "Explore Our Business",
-      ctaLink: "/what-we-do",
+      ctaLink: "/strategies",
       links: [
-        { label: "Private Wealth Management", href: "/what-we-do#wealth-management" },
-        { label: "Financial Planning", href: "/what-we-do#stewardship" },
-        { label: "Asset Management", href: "/what-we-do#stewardship" },
-        { label: "Platform Solutions", href: "/platforms" },
-        { label: "Addepar", href: "/platforms#addepar" },
-        { label: "Leutner Wealth Tax Optimizer", href: "/platforms#optimizer" },
-        { label: "Leutner Wealth AI Agent", href: "/platforms#agent" },
+        { label: "Our Approach", href: "/strategies#approach" },
+        { label: "Event-Drive", href: "/strategies#teams" },
+        { label: "Algorithmic", href: "/strategies#teams" },
+        { label: "Long/Short Equities", href: "/strategies#teams" },
+        { label: "Strategy Collaboration", href: "/strategies#collaboration" },
       ],
       image: "/navigation/what-we-do-mega.png",
     },
@@ -48,7 +46,7 @@ const navigationItems = [
       title: "Our Team",
       description: "Meet the students who lead, manage, and analyze within the Martlet Fund.",
       ctaText: "Our Solutions",
-      ctaLink: "/family-office",
+      ctaLink: "/team",
       image: "/navigation/family-office-mega.jpg",
       layout: "family" as const,
     },
@@ -60,7 +58,7 @@ const navigationItems = [
       title: "Programs",
       description: "Discover how to get involved, from applications to training and development opportunities.",
       ctaText: "Our Program",
-      ctaLink: "/young-successors",
+      ctaLink: "/programs",
       image: "/navigation/young-successors-mega.jpg",
       layout: "family" as const,
     },
@@ -72,7 +70,7 @@ const navigationItems = [
       title: "Our Fund",
       description: "Access research, view alumni outcomes, and explore the partnerships behind the fund.",
       ctaText: "Get In Touch",
-      ctaLink: "/contact",
+      ctaLink: "/fund",
       image: "/navigation/contact-mega.jpg",
       layout: "family" as const,
     },
@@ -159,7 +157,7 @@ export default function Navigation() {
             ))}
 
             <a
-              href="https://www1.royalbank.com/sgw3/PUBINVH/3m00/ISAMSecureRequest/v1/eBGPublicPage?F6=1&F7=IB&F21=IB&F22=IB&REQUEST=ClientSignin&IDP=IVC&LANGUAGE=ENGLISH&SYSTEM=DSIC"
+              href="/programs"
               className="bg-gray-200 text-uppercase border border-black text-black px-4 py-2 text-xs font-serif hover:bg-white transition-colors whitespace-nowrap"
             >
               APPLY TODAY
