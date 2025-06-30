@@ -29,18 +29,41 @@ export default function HomePage() {
 
       <ContentSection
         title="WHAT WE DO"
-        subtitle="Real Markets. Real Decisions."
+        subtitle="Three Strategies. One Fund."
         description="The Martlet Fund is a student-run investment fund dedicated to developing the 
         next generation of financial leaders. Our members gain hands-on experience managing capital 
         across diverse strategies—combining rigorous research, quantitative insight, and disciplined 
         execution. We operate through three specialized divisions, each offering a unique lens into 
         the world of professional investing."
         ctaText="Explore Our Fund"
-        ctaLink="/what-we-do"
+        ctaLink="/strategies"
         className="bg-white"
       >
         <ServiceCarousel/>
       </ContentSection>
+
+      <ContentSection
+        title="PHILOSOPHY"
+        subtitle="Integrity. Curiosity. Performance."
+        description="We believe that disciplined investing, intellectual honesty, and collaboration 
+        create the best outcomes—for our fund and our members. Our philosophy is rooted in rigorous 
+        analysis and a commitment to learning through doing."
+        ctaText="Explore Our Philosophies"
+        ctaLink="/philosophy"
+        className="bg-white"
+      />
+
+      <ContentSection
+        title="OUR TEAM"
+        subtitle="Led by students. Built on excellence."
+        description="Our team comprises some of McGill's most driven finance and STEM students. 
+        From general members, to analysts, to portfolio leads, each member plays a vital role 
+        in shaping the fund's research, performance, and culture."
+        ctaText="Meet Our Team"
+        ctaLink="/team"
+        className="bg-white"
+      />
+
 
       <ContentSection
         title="OUR INSIGHTS"

@@ -158,6 +158,10 @@ a {
 .items-center {
   align-items: center;
 }
+.items-left {
+  align-items: left;
+}
+
 
 .items-start {
   align-items: flex-start;
