@@ -5,39 +5,43 @@ import React from "react"
 // Replace with real data or pull from props/API
 const jobListings = [
   {
-    title: "Investment Analyst",
-    team: "Investing",
-    location: "Montreal, QC",
+    title: "General Member",
+    team: "Open to Anyone",
     link: "https://docs.google.com/forms/u/0/",
   },
   {
-    title: "Data Engineer",
-    team: "Engineering",
-    location: "Montreal, QC",
+    title: "Management Team",
+    team: "Open to Anyone",
     link: "https://docs.google.com/forms/u/0/",
   },
   {
-    title: "Financial Planner",
-    team: "Investing",
-    location: "Montreal, QC",
+    title: "Junior Analyst",
+    team: "Event-Driven Fund",
     link: "https://docs.google.com/forms/u/0/",
   },
   {
-    title: "Administrative Assistant",
-    team: "Business Operations",
-    location: "Montreal, QC",
+    title: "Senior Analyst",
+    team: "Event-Driven Fund",
     link: "https://docs.google.com/forms/u/0/",
   },
   {
-    title: "Client Service Associate",
-    team: "Communications",
-    location: "Montreal, QC",
+    title: "Junior Analyst",
+    team: "Algorithmic Fund",
     link: "https://docs.google.com/forms/u/0/",
   },
   {
-    title: "Internship/Co-op Program",
-    team: "Student Opportunities",
-    location: "Montreal, QC",
+    title: "Senior Analyst",
+    team: "Algorithmic Fund",
+    link: "https://docs.google.com/forms/u/0/",
+  },
+  {
+    title: "Junior Analyst",
+    team: "Long/Short Equities Fund",
+    link: "https://docs.google.com/forms/u/0/",
+  },
+  {
+    title: "Senior Analyst",
+    team: "Long/Short Equities Fund",
     link: "https://docs.google.com/forms/u/0/",
   },
 ]
@@ -56,8 +60,8 @@ export default function Opportunities() {
               <h3 className="text-xl font-semibold text-black group-hover:underline mb-2">
                 {job.title}
               </h3>
-              <p className="text-sm text-gray-600 mb-4">
-                {job.team} &#8226; {job.location}
+              <p className="text-base text-gray-600 mb-4">
+                {job.team}
               </p>
               <span className="inline-block text-blue-800 font-medium hover:underline">
                 Apply Now &rarr;

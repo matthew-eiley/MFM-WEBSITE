@@ -64,8 +64,15 @@ const navigationItems = [
       description: "Discover how to get involved, from applications to training and development opportunities.",
       ctaText: "Our Programs",
       ctaLink: "/programs",
+      links: [
+        { label: "General Membership", href: "/programs#general" },
+        { label: "Junior Analyst Program", href: "/programs#junior" },
+        { label: "Senior Analyst Program", href: "/programs#senior" },
+        { label: "Fund Management Program", href: "/programs#executives" },
+        { label: "Progression", href: "/programs#progression" },
+        { label: "Open Positions", href: "/programs#opportunities" },
+      ],
       image: "/navigation/programs-mega.jpg",
-      layout: "family" as const,
     },
   },
   {
