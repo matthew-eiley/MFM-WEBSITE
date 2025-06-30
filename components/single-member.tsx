@@ -1,71 +1,27 @@
-// "use client"
-
-// // Example team member data (same as TeamGrid)
-// const teamMembers = [
-//   {
-//     name: "Miles Leutner",
-//     position: "Senior Portfolio Manager",
-//     photo: "/team/miles.png",
-//     description: "With decades of financial industry experience, Miles guides the firm's strategic vision, emphasizing a culture rooted in integrity, trust, and client success.",
-//   },
-//   {
-//     name: "Corine Leutner",
-//     position: "Senior Investment Advisor",
-//     photo: "/team/corine.png",
-//     description: "Expert in wealth management strategies and global financial solutions, providing seasoned guidance to our ultrahigh-net-worth clients and institutional partners.",
-//   },
-// ]
-
-// export default function SingleMemberGrid() {
-//   return (
-//     <div className="grid grid-cols-1 gap-8 mb-12 max-w-4xl mx-auto w-1/2-screen text-center">
-//       {teamMembers.map((member, idx) => (
-//         <div
-//           key={idx}
-//           className="flex bg-gray-100 rounded-lg shadow-sm overflow-hidden transition-colors hover:bg-blue"
-//         >
-//           {/* Photo: left square */}
-//           <div className="w-48 h-48 flex-shrink-0 overflow-hidden">
-//             <img
-//               src={member.photo}
-//               alt={member.name}
-//               className="w-full h-full object-cover"
-//             />
-//           </div>
-
-//           {/* Text: right flex */}
-//           <div className="p-4 flex flex-col justify-center flex-1 ">
-//             <h3 className="text-lg font-semibold text-black mb-1">
-//               {member.name}
-//             </h3>
-//             <p className="text-blue-800 text-base mb-2">{member.position}</p>
-//             <p className="text-gray-700 text-sm leading-relaxed">
-//               {member.description}
-//             </p>
-//           </div>
-//         </div>
-//       ))}
-//     </div>
-//   )
-// }
-
 "use client"
 
 // Example team member data (same as TeamGrid)
 const teamMembers = [
   {
-    name: "Miles Leutner",
-    position: "Senior Portfolio Manager",
-    photo: "/team/miles.png",
-    description: "With decades of financial industry experience, Miles guides the firm's strategic vision, emphasizing a culture rooted in integrity, trust, and client success.",
-    linkedin: "https://www.linkedin.com/in/miles-leutner-285b1b131/",
+    name: "Andrew Cutler",
+    position: "Power Corporation of Canada | Class of 2026",
+    photo: "/team/andrew.jpg",
+    description: "\"What makes Martlet special isn't just the research — it's the culture of accountability and growth we've built around it.\"",
+    linkedin: "https://www.linkedin.com/in/andrew-cutler-/",
   },
   {
-    name: "Corine Leutner",
-    position: "Senior Investment Advisor",
-    photo: "/team/corine.png",
-    description: "Expert in wealth management strategies and global financial solutions, providing seasoned guidance to our ultrahigh-net-worth clients and institutional partners.",
-    linkedin: "https://www.linkedin.com/feed/",
+    name: "Ryan Fox",
+    position: "Jefferies | Class of 2027",
+    photo: "/team/ryan.jpg",
+    description: "\"We're not just managing a fund — we're building a legacy that connects students, alumni, and industry.\"",
+    linkedin: "https://www.linkedin.com/in/ryanfox575/",
+  },
+  {
+    name: "Aidan Rawas",
+    position: "BMO Capital Markets | Class of 2027",
+    photo: "/team/aidan.jpg",
+    description: "\"When you treat student research like real capital, the standard rises—and so does the performance.\"",
+    linkedin: "https://www.linkedin.com/in/aidan-rawas/",
   },
 ]
 

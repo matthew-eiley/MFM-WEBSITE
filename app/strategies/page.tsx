@@ -33,7 +33,7 @@ const strat3: ListItem[] = [
 ]
 
 
-  export default function PhilosophyPage() {
+  export default function StrategiesPage() {
   return (
     <>
     <main>
@@ -47,7 +47,7 @@ const strat3: ListItem[] = [
         portfolio guided by institutional discipline."
         ctaText="Join Today"
         ctaLink="/programs"
-        backgroundImage="/hero/home-hero.jpg"
+        backgroundImage="/hero/strategies-hero.jpg"
 
       />
 

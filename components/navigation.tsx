@@ -36,7 +36,7 @@ const navigationItems = [
         { label: "Long/Short Equities", href: "/strategies#teams" },
         { label: "Strategy Collaboration", href: "/strategies#collaboration" },
       ],
-      image: "/navigation/what-we-do-mega.png",
+      image: "/navigation/strategies-mega.png",
     },
   },
   {
@@ -45,11 +45,16 @@ const navigationItems = [
     content: {
       title: "Our Team",
       description: "Meet the students who lead, manage, and analyze within the Martlet Fund.",
-      ctaText: "Our Solutions",
-      ctaLink: "/team",
-      image: "/navigation/family-office-mega.jpg",
-      layout: "family" as const,
+      ctaText: "Explore Our Business",
+      ctaLink: "/strategies",
+      links: [
+        { label: "Our Presidents", href: "/people#presidents" },
+        { label: "Our Strategy Executives", href: "/people#executives" },
+        { label: "Our Management Team", href: "/people#management" },
+      ],
+      image: "/navigation/people-mega.png",
     },
+
   },
   {
     label: "Programs",

@@ -67,7 +67,7 @@ export default function PhilosophyPage() {
         a real-world fund environment."
         ctaText="Join Today"
         ctaLink="/programs"
-        backgroundImage="/hero/home-hero.jpg"
+        backgroundImage="/hero/philosophy-hero.jpg"
 
       />
 

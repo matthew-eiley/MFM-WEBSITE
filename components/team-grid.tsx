@@ -3,68 +3,52 @@
 // Example team member data
 const teamMembers = [
   {
-    name: "Andrew Leutner",
-    position: "Associate Advisor",
-    photo: "/team/andrew.png",
+    name: "Benjamin Amzallag",
+    position: "Event-Driven Fund Manager",
+    photo: "/team/benjy.jpg",
     description:
       "Crafting tailored investment portfolios driven by rigorous analysis and market insight.",
-    linkedin: "https://www.linkedin.com/in/andrew-leutner-mba-19214351/",
+    linkedin: "https://www.linkedin.com/in/benjamin-amzallag/",
   },
   {
-    name: "Justin Leutner",
-    position: "Associate Advisor",
-    photo: "/team/justin.png",
+    name: "John Doe",
+    position: "Event-Driven Fund Manager",
+    photo: "/team/idk.jpg",
     description:
       "Crafting tailored investment portfolios driven by rigorous analysis and market insight.",
     linkedin: "https://www.linkedin.com/feed/",
   },
   {
-    name: "Jennifer McCann",
-    position: "Associate",
-    photo: "/team/jenn.png",
-    description:
-      "Crafting tailored investment portfolios driven by rigorous analysis and market insight.",
-    linkedin: "https://www.linkedin.com/in/jennifer-mccann-/",
-  },
-  {
-    name: "Alexandra Bento-Christen",
-    position: "Associate",
-    photo: "/team/alex.png",
-    description:
-      "Crafting tailored investment portfolios driven by rigorous analysis and market insight.",
-    linkedin: "https://www.linkedin.com/in/alexandra-bento-81682422b/",
-  },
-  {
-    name: "Rebecca Fracasso",
-    position: "Administrative Assistant",
-    photo: "/team/rebecca.png",
-    description:
-      "Crafting tailored investment portfolios driven by rigorous analysis and market insight.",
-    linkedin: "https://www.linkedin.com/in/rebecca-martina-fracasso-006b07235/",
-  },
-  {
-    name: "Madison Burns",
-    position: "Administrative Assistant",
-    photo: "/team/madison.png",
-    description:
-      "Crafting tailored investment portfolios driven by rigorous analysis and market insight.",
-    linkedin: "https://www.linkedin.com/in/madison-burns-2754701b5/",
-  },
-  {
-    name: "Andrew Diamond",
-    position: "Analyst Intern",
-    photo: "/team/diamond.png",
-    description:
-      "As an analyst intern, I'm here to dive deep into research and bring fresh perspectives to the team. Every data point is an opportunity to learn—and I'm eager to turn those insights into value for our clients.",
-    linkedin: "https://www.linkedin.com/in/andrew-diamond-b14961258/",
-  },
-  {
     name: "Matthew Eiley",
-    position: "Data Engineering Intern",
-    photo: "/team/matthew.png",
+    position: "Algorithmic Fund Manager",
+    photo: "/team/matthew.jpg",
     description:
-      "Behind every great investment strategy is a solid data pipeline. I'm passionate about building scalable systems that transform raw data into a powerful competitive edge.",
-    linkedin: "https://www.linkedin.com/in/matthew-eiley",
+      "Crafting tailored investment portfolios driven by rigorous analysis and market insight.",
+    linkedin: "https://www.linkedin.com/in/matthew-eiley/",
+  },
+  {
+    name: "Marc-Antoine Nadeau",
+    position: "Algorithmic Fund Manager",
+    photo: "/team/marc.jpg",
+    description:
+      "Crafting tailored investment portfolios driven by rigorous analysis and market insight.",
+    linkedin: "https://www.linkedin.com/in/ma-nadeau/",
+  },
+  {
+    name: "Evan Kerzner",
+    position: "Long/Short Fund Manager",
+    photo: "/team/evan.jpg",
+    description:
+      "Crafting tailored investment portfolios driven by rigorous analysis and market insight.",
+    linkedin: "https://www.linkedin.com/in/evan-kerzner-45ba6828a/",
+  },
+  {
+    name: "Cédrik Nadeau",
+    position: "Long/Short Fund Manager",
+    photo: "/team/cedrik.jpg",
+    description:
+      "Crafting tailored investment portfolios driven by rigorous analysis and market insight.",
+    linkedin: "https://www.linkedin.com/in/cedrik-nadeau/",
   },
 ]
 
