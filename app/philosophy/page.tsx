@@ -132,7 +132,7 @@ export default function PhilosophyPage() {
         research is peer-reviewed. Members grow not just as analysts, but as thinkers, 
         collaborators, and future leaders in finance."
         className="bg-white"
-        id="who"
+        id="apart"
       >
       </ContentSection>
       <Subscribe/>

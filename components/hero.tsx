@@ -31,7 +31,7 @@ export default function Hero({
             {title && <h1 className="text-xl font-serif font-bold text-white leading-tight">{title}</h1>}
             {subtitle && <h2 className="text-8xl font-serif text-white mb-4 leading-snug">{subtitle}</h2>}
             {description && <p className="text-xl font-serif max-w-4xl font-semibold text-white mb-4 leading-snug">{description}</p>}
-            <p className="text-5xl font-script text-white mt-3">Real Markets. Real Learning.</p>
+            <p className="text-5xl font-script text-white mt-3">Learning With Purpose</p>
 
             {ctaText && ctaLink && (
               <div className="pt-2">
