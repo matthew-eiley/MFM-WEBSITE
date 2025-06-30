@@ -1,8 +1,9 @@
 # Leutner Wealth Website
 
 To preview the website:<br/>
-Delete the `.next` and `node_modules` folders, then run:
 ```
+git clone https://github.com/matthew-eiley/MFM-WEBSITE.git
 npm install
 npm run dev
 ```
+Then open `http://localhost:3000` in your browser
