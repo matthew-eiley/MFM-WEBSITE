@@ -2,8 +2,8 @@ import type React from "react"
 import "../styles/globals.css"
 
 export const metadata = {
-  title: "Leutner Wealth",
-  description: "Trusted Partners In Private Wealth",
+  title: "Martlet Fund McGill",
+  description: "McGill Hedge Fund Club",
 }
 
 export default function RootLayout({

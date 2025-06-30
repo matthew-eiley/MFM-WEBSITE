@@ -7,21 +7,24 @@ import AboutCarousel from "@/components/about-carousel"
 import Footer from "@/components/footer"
 import Subscribe from "@/components/subscribe"
 import ShareButtons from "@/components/share-buttons"
+import Hero from "@/components/hero"
 
 export default function HomePage() {
   return (
     <>
     <main>
       <Navigation />
-      <SpecialHero
-        title="LEUTNER WEALTH"
-        subtitle1="Trusted Partners In Private Wealth Management."
-        subtitle2="Over Four Decades of Proven Expertise,"
-        subtitle3="And Enduring Client Relationships."
-        tagline="Investing for Tomorrow, Today."
-        ctaText="Schedule Your Consultation Today"
-        ctaLink="/contact"
+      <Hero
+        title="MANAGEMENT UNDERGRADUATE SOCIETY"
+        subtitle="Martlet Fund McGill"
+        description="Martlet Fund McGill is the university's premier student-run hedge fund, 
+        uniting top talent with institutional-level investment rigor. Through disciplined 
+        research, active portfolio management, and a commitment to performance, we cultivate 
+        the next generation of financial leaders."
+        ctaText="Join Today"
+        ctaLink="/careers"
         backgroundImage="/hero/home-hero.jpg"
+
       />
 
       <ContentSection
