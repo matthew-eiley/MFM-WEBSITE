@@ -3,27 +3,27 @@
 // Main feature articles with individual links
 const mainArticles = [
   {
-    title: "Exploring the impacts of AI and GenAI across industries",
+    title: "Staying long US assets",
     description:
-      "Continuing our examination of artificial intelligence and its potential to shape the investment landscape, we look at the specific impacts AI may have—or is already having—across a wide range of industries.",
+      "What should investors take away from recent economic data releases, and where are the opportunities now? Ashok Varadhan, Co-Head of Global Banking & Markets, discusses with Chris Hussey on the Goldman Sachs trading floor.",
     readTime: "14 minute read",
-    image: "/insights/insight2.jpg",
+    image: "/insights/insight1.avif",
     href: "https://www.rbcwealthmanagement.com/en-ca/insights/exploring-the-impacts-of-ai-and-gen-ai-across-industries",
   },
   {
-    title: "AgriTech & FoodTech: Technology to feed the world",
+    title: "Business Insider",
     description:
-      "Technology-driven solutions offer the promise of feeding a growing global population while limiting the burden on the environment.",
-    readTime: "17 minute read",
+      "Meet the 0.4% of students who made it into Citadel's 2025 summer intern program — the firm's lowest acceptance rate yet",
+    readTime: "11 minute read",
     image: "/insights/insight2.jpg",
-    href: "https://www.rbcwealthmanagement.com/en-ca/insights/agritech-foodtech-technology-to-feed-the-world#:~:text=Technology%2Ddriven%20solutions%20offer%20the,the%20burden%20on%20the%20environment.",
+    href: "https://www.citadelsecurities.com/wp-content/uploads/sites/2/2025/06/130352-1.pdf",
   },
 ]
 
 // Podcast banner with its own link
 const podcastBanner = {
-  title: "Markets in Motion Podcast",
-  image: "/insights/insight2.jpg",
+  title: "Markets in Motion",
+  image: "/insights/markets-in-motion.jpg",
   href: "https://www.rbccm.com/en/insights/story.page?dcr=templatedata/article/insights/data/2023/01/responsible_and_explainable_ai_exploring_the_future_of_trading",
 }
 
@@ -35,24 +35,24 @@ const YOUTUBE_MUSIC_URL = "https://music.youtube.com/playlist?list=PLkkJQzB4a-0S
 // List of quick insights with individual links
 const quickInsights = [
   {
-    date: "June 10, 2025",
-    title: "Improved 2026 EPS outlooks",
+    date: "May 16, 2025",
+    title: "Why tech stocks could keep rallying",
     duration: "5 min listen",
-    image: "/insights/insight.png",
-    href: "https://www.rbccm.com/en/insights/transcripts/improved-2026-eps-outlooks.page#:~:text=First%2C%20the%20increase%20in%202026,was%2014.2%25%20in%20mid%20March.",
+    image: "/insights/small1.avif",
+    href: "https://www.goldmansachs.com/insights/the-markets/why-tech-stocks-could-keep-rallying",
   },
   {
-    date: "June 6, 2025",
-    title: "Messy markets and investor pickles",
+    date: "May 2, 2025",
+    title: "Time to buy bonds?",
     duration: "30 min listen",
-    image: "/insights/insight.png",
+    image: "/insights/small2.jpg",
     href: "https://www.rbccm.com/en/insights/transcripts/messy-markets-and-investor-pickles.page",
   },
   {
-    date: "June 2, 2025",
-    title: "Tweaking our target",
+    date: "Jun 27, 2025",
+    title: "Climbing the \"Wall of Worry\"",
     duration: "7 min listen",
-    image: "/insights/insight.png",
+    image: "/insights/small3.avif",
     href: "https://www.rbccm.com/en/story/story.page?dcr=templatedata/article/story/data/2025/06/tweaking-our-target",
   },
 ]
