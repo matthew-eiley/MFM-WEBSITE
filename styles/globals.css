@@ -201,11 +201,11 @@ a {
 }
 
 .bg-blue {
-  background-color: #e5eeff;
+  background-color: #fbd8d8;
 }
 
 .bg-navy {
-  background-color: #00082a;
+  background-color: #6b0000;
 }
 
 .text-white {
@@ -229,7 +229,7 @@ a {
 }
 
 .text-blue-800 {
-  color: #1e40af;
+  color: #bc1717;
 }
 
 .text-uppercase {
@@ -678,13 +678,13 @@ a {
 
 /* Transitions */
 .transition-colors {
-  transition: color 0.15s ease-in-out, background-color 0.25s ease-in-out, border-color 0.15s ease-in-out;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 .transition-all {
-  transition: all 0.25s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .transition-transform {
-  transition: transform 0.25s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .duration-200 {
@@ -711,7 +711,7 @@ a {
   background-color: #ffffff;
 }
 .hover\:bg-blue:hover {
-  background-color: #e5eeff;
+  background-color: #fbd8d8;
 }
 .hover\:bg-transparent:hover {
   background-color: transparent;
@@ -924,5 +924,5 @@ a {
 .my-hr {
   border: none;
   height: 1.5px;
-  background: linear-gradient(to right, #00082a, #e5eeff);
+  background: linear-gradient(to right, #6b0000, #fbd8d8);
 }

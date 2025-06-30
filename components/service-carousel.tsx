@@ -6,61 +6,38 @@ import Link from "next/link"
 // Each service card uses utility classes defined in globals.css for spacing, colors, hover states, and scroll snapping
 const services = [
   {
-    href: "/what-we-do#wealth-management",
-    imageSrc: "/carousel/private-wealth-carousel.png",
-    title: "Private Wealth Management",
-    subtitle: "Building Wealth for our Clients",
-    description: `Customized investment strategies
-    crafted exclusively around your
-    financial ambitions, ensuring tailored
-    solutions and sustainable wealth
-    growth.`,
+    href: "/strategies#event",
+    imageSrc: "/carousel/event.jpg",
+    title: "Event-Driven Strategies",
+    subtitle: "Capitalizing on Catalysts",
+    description: `We identify and trade around corporate actions, 
+    earnings surprises, and macro events—where timing, analysis, 
+    and conviction drive alpha.`,
   },
   {
-    href: "/family-office",
-    imageSrc: "/carousel/family-office-carousel.png",
-    title: "Family Office Services",
-    subtitle: "Your Legacy, Our Mission",
-    description: `Expert family governance guidance
-    structured specifically to nurture
-    your family's vision, ensure stability,
-    and fortify your legacy through
-    generations.`,
+    href: "/strategies#algo",
+    imageSrc: "/carousel/algo.jpg",
+    title: "Algorithmic Trading",
+    subtitle: "Quant-Driven Market Execution.",
+    description: `Our members develop, backtest, and deploy systematic 
+    trading strategies using data science and automation to 
+    uncover statistical edge.`,
   },
   {
-    href: "/what-we-do#platforms",
-    imageSrc: "/carousel/platforms-carousel.png",
-    title: "Our Platforms",
-    subtitle: "Technology That Empowers You",
-    description: `Innovative digital solutions
-    providing clarity, security, and
-    seamless control, empowering
-    confident asset management and
-    informed financial decisions.`,
+    href: "/strategies#longshort",
+    imageSrc: "/carousel/longshort.jpg",
+    title: "Long/Short Equity",
+    subtitle: "Fundamental Research, Tactical Positioning.",
+    description: `We analyze company fundamentals to build conviction-based 
+    positions—long on value, short on overvaluation—to outperform in any market.`,
   },
   {
-    href: "/insights",
-    imageSrc: "/carousel/insights-carousel.png",
-    title: "Our Insights",
-    subtitle: "Market Intelligence",
-    description: `Timely, strategic market
-    analyses and insightful
-    commentary designed to equip
-    you with actionable intelligence
-    for confident decision-making.`,
-  },
-  {
-    href: "/young-successors",
-    imageSrc: "/carousel/young-successors-carousel.png",
-    title: "Young Successors Program and Annual Summit",
-    subtitle: "Cultivating Next-Generation Leaders",
-    description: `Engage in dynamic educational programs,
-    personalized mentorship initiatives, and
-    participate in our exclusive Annual Summit.
-    Our program provides young leaders with
-    strategic insights and invaluable networks
-    essential for enduring family wealth
-    stewardship.`,
+    href: "/strategies#collaboration",
+    imageSrc: "/carousel/collaboration.jpg",
+    title: "Cross-Team Collaboration",
+    subtitle: "Integrated Thinking Across Strategies.",
+    description: `Teams regularly collaborate to refine ideas, share insights, 
+    and align execution—emulating real-world hedge fund culture, competition, and discipline.`,
   },
 ]
 

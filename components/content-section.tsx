@@ -52,7 +52,7 @@ export default function ContentSection({
             <div className="mt-8 text-center">
               <a
                 href={ctaLink}
-                className="bg-gray-100 border border-black text-black px-8 py-3 text-base font-serif rounded hover:bg-transparent transition-colors whitespace-nowrap"
+                className="bg-white border border-black text-black px-8 py-3 text-base font-serif rounded hover:bg-blue transition-colors whitespace-nowrap"
               >
                 {ctaText}
               </a>

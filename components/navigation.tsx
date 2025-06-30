@@ -5,7 +5,7 @@ import MegaMenu from "./mega-menu"
 
 const navigationItems = [
   {
-    label: "About Us",
+    label: "Philosophy",
     type: "mega",
     content: {
       title: "About Us",
@@ -22,7 +22,7 @@ const navigationItems = [
     },
   },
   {
-    label: "What We Do",
+    label: "Strategies",
     type: "mega",
     content: {
       title: "What We Do",
@@ -42,7 +42,7 @@ const navigationItems = [
     },
   },
   {
-    label: "Family Office Services",
+    label: "Team",
     type: "mega",
     content: {
       title: "Family Office Services",
@@ -54,7 +54,7 @@ const navigationItems = [
     },
   },
   {
-    label: "Young Successors",
+    label: "For Students",
     type: "mega",
     content: {
       title: "Young Successors Program",
@@ -62,18 +62,6 @@ const navigationItems = [
       ctaText: "Our Program",
       ctaLink: "/young-successors",
       image: "/navigation/young-successors-mega.jpg",
-      layout: "family" as const,
-    },
-  },
-  {
-    label: "Insights",
-    type: "mega",
-    content: {
-      title: "Insights",
-      description: "Gain perspectives on the markets, investing strategies, and future trends from our experts.",
-      ctaText: "Explore Insights",
-      ctaLink: "/insights",
-      image: "/navigation/insights-mega.jpg",
       layout: "family" as const,
     },
   },
@@ -125,20 +113,29 @@ export default function Navigation() {
         <div className="flex items-center justify-between h-16">
           {/* Logos - moved closer to left edge */}
           <div className="flex items-center space-x-8">
-            <a href="https://www.rbcwealthmanagement.com/en-ca/" className="flex-shrink-0">
+            <a href="https://www.mcgill.ca/" className="flex-shrink-0">
               <img
-                src="/navigation/rbc-wm-logo.svg"
-                alt="RBC"
+                src="/navigation/mcgill-logo.png"
+                alt="mcgill"
                 width={100}
+                height={50}
+                className="h-12 w-auto"
+              />
+            </a>
+            <a href="https://www.musmcgill.com/" className="flex-shrink-0">
+              <img
+                src="/navigation/mus-logo.jpg"
+                alt="mus"
+                width={220}
                 height={50}
                 className="h-12 w-auto"
               />
             </a>
             <a href="/" className="flex-shrink-0">
               <img
-                src="/navigation/lw-logo.png"
-                alt="Leutner Wealth"
-                width={120}
+                src="/navigation/mfm-logo.png"
+                alt="mfm"
+                width={220}
                 height={50}
                 className="h-12 w-auto"
               />
@@ -161,25 +158,11 @@ export default function Navigation() {
               </div>
             ))}
 
-            <div className="relative group">
-              <span className="text-black text-uppercase hover:text-gray-600 py-2 text-xs font-serif whitespace-nowrap cursor-pointer">
-                Language
-              </span>
-              <div className="absolute top-full left-0 bg-white border border-gray-200 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 min-w-32 z-10">
-                <a href="#" className="block font-serif px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
-                  English
-                </a>
-                <a href="#" className="block font-serif px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
-                  French
-                </a>
-              </div>
-            </div>
-
             <a
               href="https://www1.royalbank.com/sgw3/PUBINVH/3m00/ISAMSecureRequest/v1/eBGPublicPage?F6=1&F7=IB&F21=IB&F22=IB&REQUEST=ClientSignin&IDP=IVC&LANGUAGE=ENGLISH&SYSTEM=DSIC"
               className="bg-gray-200 text-uppercase border border-black text-black px-4 py-2 text-xs font-serif hover:bg-white transition-colors whitespace-nowrap"
             >
-              Client Login
+              APPLY TODAY
             </a>
           </nav>
 

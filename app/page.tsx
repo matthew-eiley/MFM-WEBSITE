@@ -29,15 +29,13 @@ export default function HomePage() {
 
       <ContentSection
         title="WHAT WE DO"
-        subtitle="We deliver personalized expertise to our
-        clients"
-        description="Leutner Wealth delivers the institutional strength of a 
-        global financial leader with the personalized expertise of a boutique 
-        advisory. Our comprehensive approach empowers purpose driven growth, 
-        strategic wealth preservation, and proactive legacy management. We ensure 
-        your wealth works as diligently and intentionally as you do, safeguarding 
-        your legacy for generations to come."
-        ctaText="Explore Our Business"
+        subtitle="Real Markets. Real Decisions."
+        description="The Martlet Fund is a student-run investment fund dedicated to developing the 
+        next generation of financial leaders. Our members gain hands-on experience managing capital 
+        across diverse strategies—combining rigorous research, quantitative insight, and disciplined 
+        execution. We operate through three specialized divisions, each offering a unique lens into 
+        the world of professional investing."
+        ctaText="Explore Our Fund"
         ctaLink="/what-we-do"
         className="bg-white"
       >
