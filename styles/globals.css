@@ -450,11 +450,15 @@ a {
 .h-0\.5 {
   height: 0.125rem;
 }
-
+.max-h-36 {
+  max-height: 9rem;
+}
 .max-h-72 {
   max-height: 18rem;
 }
-
+.max-w-48 {
+  max-width: 12rem;
+}
 .max-w-lg {
   max-width: 32rem;
 }

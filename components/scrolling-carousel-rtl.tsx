@@ -4,7 +4,7 @@ interface ScrollingCarouselProps {
   images: string[]
 }
 
-export default function ScrollingCarousel({ images }: ScrollingCarouselProps) {
+export default function ScrollingCarouselRTL({ images }: ScrollingCarouselProps) {
   return (
     <div className="overflow-hidden w-full bg-white py-6">
       <div className="flex w-max animate-scroll">
@@ -13,7 +13,7 @@ export default function ScrollingCarousel({ images }: ScrollingCarouselProps) {
             <img
               src={src}
               alt={`Carousel item ${idx}`}
-              className="h-full object-contain"
+              className="max-h-36 w-auto max-w-48"
             />
           </div>
         ))}

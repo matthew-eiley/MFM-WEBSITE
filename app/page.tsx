@@ -6,6 +6,37 @@ import Footer from "@/components/footer"
 import Subscribe from "@/components/subscribe"
 import ShareButtons from "@/components/share-buttons"
 import Hero from "@/components/hero"
+import ScrollingCarouselRTL from "@/components/scrolling-carousel-rtl"
+import ScrollingCarouselLTR from "@/components/scrolling-carousel-ltr"
+
+const alumni_rtl = [
+  "/fund/bmo.png",
+  "/fund/ms.svg",
+  "/fund/rbc.webp",
+  "/fund/pcc.png",
+  "/fund/jefferies.png",
+  "/fund/bmo.png",
+  "/fund/ms.svg",
+  "/fund/rbc.webp",
+  "/fund/pcc.png",
+  "/fund/jefferies.png",
+]
+const alumni_ltr = [
+  "/fund/fidelity.png",
+  "/fund/valsoft.png",
+  "/fund/elliot.png",
+  "/fund/cintas.png",
+  "/fund/cdpq.png",
+  "/fund/realstar.png",
+  "/fund/galliant.png",
+  "/fund/fidelity.png",
+  "/fund/valsoft.png",
+  "/fund/elliot.png",
+  "/fund/cintas.png",
+  "/fund/cdpq.png",
+  "/fund/realstar.png",
+  "/fund/galliant.png",
+]
 
 export default function HomePage() {
   return (
@@ -104,7 +135,10 @@ export default function HomePage() {
         className="bg-white"
         ctaText="See Our Network"
         ctaLink="/network-partners"
-      />
+      >
+        <ScrollingCarouselRTL images={alumni_rtl}/>
+        <ScrollingCarouselLTR images={alumni_ltr}/>
+      </ContentSection>
 
       <ContentSection
         title="PARTNERS & SPONSORS"
