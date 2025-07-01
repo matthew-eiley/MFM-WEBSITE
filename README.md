@@ -1,4 +1,4 @@
-# Leutner Wealth Website
+# Martlet Fund McGill Website
 
 To preview the website:<br/>
 ```
