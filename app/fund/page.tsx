@@ -3,40 +3,17 @@ import ContentSection from "@/components/content-section"
 import Footer from "@/components/footer"
 import Subscribe from "@/components/subscribe"
 import Hero from "@/components/hero"
-import Opportunities from "@/components/opportunities"
-import BulletPoints, {BulletItem} from "@/components/bullet-points"
-import ProgressionTimeline from "@/components/progression-snapshot"
 import ShareButtons from "@/components/share-buttons"
 import InsightsGrid from "@/components/insights-grid"
+import ScrollingCarousel from "@/components/scrolling-carousel"
 
-  const gen: BulletItem[] = [
-    { description: "Investor Mindset Workshops (valuation, catalysts, macro context)" },
-    { description: "Mock Interviews & Recruiting Resources" },
-    { description: "Introductory Pitch Competitions" },
-    { description: "Networking Events with alumni and industry professionals" },
-  ] 
-  
-  const junior: BulletItem[] = [
-    { description: "Investment thesis writing" },
-    { description: "Portfolio structure and simulation" },
-    { description: "How real hedge fund teams operate" },
-    { description: "How to pitch an idea in a team setting" },
-  ]  
-
-  const senior: BulletItem[] = [
-    { description: "Run strategy logic and pitch preparation" },
-    { description: "Manage simulated P&Ls" },
-    { description: "Lead routine reviews with execs" },
-    { description: "Are mentored for careers in hedge funds, trading, and research" },
-  ]  
-
-  const exec: BulletItem[] = [
-    { description: "Set strategy tone and thematic direction" },
-    { description: "Manage portfolio-level decisions" },
-    { description: "Mentor analysts and manage review cycles" },
-    { description: "Uphold fund quality, performance, and culture" },
-  ]  
-
+const logos = [
+  "/team/aidan.jpg",
+  "/team/aidan.jpg",
+  "/team/aidan.jpg",
+  "/team/aidan.jpg",
+  "/team/aidan.jpg",
+]
 
 export default function FundPage() {
   return (
@@ -63,6 +40,7 @@ export default function FundPage() {
       >
         <ShareButtons/>
         <InsightsGrid/>
+        <ScrollingCarousel images={logos}/>
       </ContentSection>
 
 
